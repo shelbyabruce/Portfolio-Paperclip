@@ -1,0 +1,302 @@
+html {
+	background: url(../images/bg.jpg);
+}
+
+* {
+	box-sizing: border-box;
+}
+.body {
+	width: 1200px;
+}
+
+.wrapper {
+	width: 768px;
+	margin: 50px auto;
+	border: 1px solid #2F5793;
+	background-color: #FCFCFC;
+	font-family: sans-serif;
+}
+
+/*********
+    INTRO STYLES 
+**********/
+
+.intro {
+	background-color: #F2F2F2;
+	padding: 28px 28px 5px; 28px;
+	display: inline-block;
+}
+
+.name {
+	width: 342px;
+	display: inline-block;
+	float: left;
+	margin-right: 28px;
+}
+
+h1 {
+	font-size: 60px;
+	color: #585858;
+	margin-bottom: 0;
+	margin-top: 0;
+	line-height: 50px;
+}
+
+h2 {
+	font-size: 60px;
+	color: #5FBFCD;
+	margin-top: 5px;
+	line-height: 50px;
+	margin-bottom: 0;
+}
+
+h3 {
+	color: #585858;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	display: inline-block;
+	margin-bottom: 4px;
+}
+
+/*********
+    TAB STYLES 
+**********/
+
+.tabs {
+	color: white;
+	font-size: 12px;
+	font-weight: normal;
+	width: 63px;
+}
+
+.tabs .available {
+	background-color: #5FBFCD;
+	padding: 10px 8px;
+}
+
+.tabs .busy {
+	background-color: #CECECE;
+	padding: 8px;
+}
+
+/*********
+    NAVIGATION STYLES 
+**********/
+
+.navigate {
+	width: 340px;
+	float: left;
+	display: inline-block;
+}
+
+.navigate span {
+	font-size: 11px;
+	color: #585858;
+}
+
+.navigate nav {
+	border-top: 1px solid #C6C6C6; 
+	padding-top: 20px
+}
+.navigate nav a{
+	font-size: 14px;
+	color: #5FBFCD;
+	text-decoration: none;
+	margin-left: 35px;
+}
+
+#selected_link {
+	background-color: #5FBFCD; 
+	padding: 10px 40px;
+	border-radius: 20px;
+	color: white;
+}
+
+/*********
+    FEATURED STYLES 
+**********/
+
+.featured {
+	margin: 28px;
+	padding-bottom: 0;
+	display: inline-block;
+	position: relative;
+}
+
+.featured img {
+	border: 1px solid #CBC9CA;
+	padding: 4px;
+}
+
+.featured .controls {
+	position: absolute;
+	bottom: 0;
+	width: 695px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background-color: rgba(0, 0, 0, .4);
+	font-size: 13px;
+}
+
+.featured .controls div {
+	display: inline-block;
+}
+
+.featured .prev {
+	margin: 10px;
+	color: #CDCDCD;
+}
+
+.featured .next {
+	position: absolute;
+	right: 0;
+	margin: 10px;
+	color: #FFFFFF;
+}
+
+/*********
+    LATEST WORK STYLES 
+**********/
+
+.latest_work {
+	padding: 0 28px 10px 28px;
+}
+
+.latest_work_title {
+	border-bottom: 1px solid #CACACA;
+}
+
+.project_gallery {
+	width: 708px;
+	margin-top: 10px;
+}
+
+.project_gallery a {
+	display: inline-block;
+	border: 1px solid #CACACA;
+	padding: 4px;
+	margin-right: 6px;
+	margin-bottom: 13px;
+}
+
+.last_project {
+	margin-right: 0;
+}
+
+#project_9 {
+	margin-right: 5px;
+}
+
+/*********
+    SOCIAL STYLES 
+**********/
+
+.social {
+	background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(187, 187, 187));
+	padding: 18px 31px 40px 28px;
+	display: inline-block;
+}
+
+/*********
+    TWITTER FEED STYLES 
+**********/
+
+.twitter {
+	width: 340px;
+	display: inline-block;
+	float: left;
+	margin: auto;
+
+}
+
+.latest_tweets {
+	border-bottom: 1px solid #CACACA;
+}
+
+.follow_me {
+	color: #5FBFCD;
+	font-size: 10px;
+	text-decoration: none;
+	margin-left: 155px;
+}
+
+.tweet_box {
+	background-color: #939393;
+	width: 336px;
+	margin-top: 20px;
+	border-radius: 7px;	
+	position: relative;
+}
+
+.tweet_box p:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 9px 0 0 16px;
+	border-color: transparent transparent transparent #939393;
+	position: absolute;
+	left: 12px;
+	top: -8px;
+}
+
+.tweet_box p {
+	color: white;
+	font-size: 10px;
+	padding: 10px 10px;
+}
+
+.tweet_box span {
+	color: white;
+	font-size: 10px;
+	color: #85ECFD;
+}
+
+/*********
+    CONNECT STYLES 
+**********/
+
+.connect {
+	width: 340px;
+	float: left;
+	display: inline-block;
+	margin-left: 27px;
+}
+
+.network {
+	border-bottom: 1px solid #CACACA;
+}
+
+.network_box {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.network_box a {
+	text-decoration: none;
+}
+
+/*********
+    NETWORK & RECENT PROJECTS STYLES 
+**********/
+
+.recent_projects_title {
+	border-bottom: 1px solid #A8A8A8;
+}
+
+.recent_projects_box {
+	width: 342px;
+	margin-top: 8px;
+}
+
+.recent_projects img {
+	border: 1px solid #FCFCFC;
+	margin-right: 2px;
+}
+
+.recent_projects a {
+	text-decoration: none;
+	width: 61px;
+	margin: none;
+}
