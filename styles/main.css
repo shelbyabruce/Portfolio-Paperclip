@@ -12,9 +12,9 @@ html {
 .wrapper {
 	width: 768px;
 	margin: 50px auto;
-	border: 1px solid #2F5793;
 	background-color: #FCFCFC;
 	font-family: sans-serif;
+	position: relative;
 }
 
 /*********
@@ -65,19 +65,34 @@ h3 {
 
 .tabs {
 	color: white;
-	font-size: 12px;
+	font-size: 11px;
 	font-weight: normal;
 	width: 63px;
+	position: absolute;
+	top: 0;
+	right: -46px;
+}
+
+.tabs > div {
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
+	margin-top: 30px;
+	padding: 8px;
+	text-align: center;
+  	-webkit-box-shadow: 1px 0 3px 0px rgba(0, 0, 0, .2);
+    box-shadow: 1px 0 3px 0px rgba(0, 0, 0, .2);
 }
 
 .tabs .available {
 	background-color: #5FBFCD;
 	padding: 10px 8px;
+	margin-left: 4.9px;
 }
 
 .tabs .busy {
 	background-color: #CECECE;
-	padding: 8px;
+	margin-left: 2px;
 }
 
 /*********
