@@ -211,6 +211,7 @@ h3 {
 	background-image: -webkit-linear-gradient(top, rgb(245, 245, 245), rgb(187, 187, 187));
 	padding: 18px 31px 40px 28px;
 	display: inline-block;
+	width: 100%;
 }
 
 /*********
